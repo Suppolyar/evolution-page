@@ -1,27 +1,27 @@
 <template>
   <div class="flex flex-col overflow-hidden">
     <div
-      class="relative h-screen w-screen overflow-hidden bg-war-robots bg-cover bg-center bg-no-repeat"
+      class="relative h-screen w-screen overflow-hidden logo-screen:h-full bg-war-robots bg-cover bg-top bg-no-repeat"
     >
       <MyGamesLogo class="absolute right-[80px] top-[80px]" />
       <div
         class="flex h-full flex-col items-center justify-center gap-5 py-16 text-lg 2xl:gap-4"
       >
-        <MainLogo class="mb-4"/>
+        <MainLogo class="mb-5"/>
 
         <BaseButton />
 
-        <InfoBlock size="medium">
+        <InfoBlock>
           Скачивая MY.GAMES Launcher вы соглашаетесь с
           передачей
           ваших данных компании MY.GAMES B.V. и их обработкой согласно
-          <a class="hover:underline" href="https://documentation.my.games/terms/mygames_privacy" target="_blank">Политике
+          <a class="underline" href="https://documentation.my.games/terms/mygames_privacy" target="_blank">Политике
             конфиденциальности </a>
           портала MY.GAMES
         </InfoBlock>
       </div>
     </div>
-    <BaseFooter class="w-full" />
+    <BaseFooter />
   </div>
 
 </template>
