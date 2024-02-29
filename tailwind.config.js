@@ -3,6 +3,9 @@ export default {
   content: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      screens: {
+        'logo-screen': {'raw': '(max-height: 600px)'}
+      },
       backgroundImage: {
         "war-robots": "url('@/assets/bg.jpeg')",
       },

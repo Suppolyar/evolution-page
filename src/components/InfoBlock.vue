@@ -1,22 +1,10 @@
 <template>
-  <div :class="setCurrentBlockSize()" class="border border-white backdrop-blur	 px-10 py-6 text-white text-lg rounded-xd bg-block">
+  <div class="border border-white backdrop-blur mt-6	px-[30px] py-4 text-white text-base rounded-xd bg-block max-w-[450px]">
     <slot />
   </div>
 </template>
 
 <script setup lang="ts">
-const props = defineProps<{
-  size: "medium" | "large";
-}>();
-
-const setCurrentBlockSize = () => {
-  switch (props.size) {
-    case "medium":
-      return "max-w-[450px]";
-    case "large":
-      return "max-w-[525px]";
-  }
-};
 </script>
 
 <style scoped></style>
