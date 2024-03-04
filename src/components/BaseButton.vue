@@ -14,8 +14,8 @@ defineOptions({
 
 const onBtnClick = () => {
   window.__GEM.detectAndDownload(
-    "13.2013983",
-    "https://static.gc.my.games/HawkedLoader.exe"
+    "0.2002973",
+    "https://static.gc.my.games/Evolution2BattleForUtopiaLoader.exe"
   );
 };
 </script>
